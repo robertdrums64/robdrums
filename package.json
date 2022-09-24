@@ -1,0 +1,14 @@
+{
+  "name": "robdrums",
+  "version": "1.0.0",
+  "description": "robdrums",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robdrums"
+  ],
+  "author": "Robert De La Torre",
+  "license": "ISC"
+}
