@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    background-color: bisque;
+    width: 25%;
+}
+.header-image {
+    float: left;
+    width: 25%;
+}
+.header-title {
+    float: right;
+    width: 75%;
+}
