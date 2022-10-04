@@ -3,20 +3,41 @@
 }
 
 body {
-    background-color: black;
     padding: 0%;
     margin: 0%;
 }
 
+/* HEADER STYLES */
 .header {
-    background-color: bisque;
-    width: 25%;
+    overflow: auto;
 }
 .header-image {
+    padding: 1%;
     float: left;
-    width: 25%;
 }
 .header-title {
     float: right;
-    width: 75%;
+    padding: 1% 2% 0 0;
+}
+
+/* MIDDLE CONTENT */
+.column-one {
+    border-style: solid;
+}
+.column-one-content {
+    border-style: solid;
+}
+
+/* BOTTOM CONTENT */
+.column-two {
+    border-style: solid;
+}
+.column-two-imgone {
+    border-style: solid;
+}
+.column-two-imgtwo {
+    border-style: solid;
+}
+.column-two-imgthree {
+    border-style: solid;
 }
