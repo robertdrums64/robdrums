@@ -21,23 +21,23 @@ body {
 }
 
 /* MIDDLE CONTENT */
-.column-one {
-    border-style: solid;
-}
-.column-one-content {
-    border-style: solid;
-}
+/* .column-one {
+
+} */
+/* .column-one-content {
+
+} */
 
 /* BOTTOM CONTENT */
-.column-two {
-    border-style: solid;
-}
+/* .column-two {
+
+} */
 .column-two-imgone {
-    border-style: solid;
+    padding: 1%;
 }
 .column-two-imgtwo {
-    border-style: solid;
+    padding: 1%;
 }
 .column-two-imgthree {
-    border-style: solid;
+    padding: 1%;
 }
