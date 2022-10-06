@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Practice Javascript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href="/css/wages.css" type="text/css" rel="stylesheet">
+    <script src="/js/wages.js"></script>
+    <script src="/js/wagesmain.js"></script>
+</head>
+<body>
+
+    <div class="wagesapp-container">
+
+        <div class="header">Wages App</div>
+            <div class="content">
+
+                <!-- DATA INPUT FOR RATE OF PAY -->
+                <label for="rate">Rate of pay: $</label>
+                <input type="number" name="rate" id="rate" min="0" max="90" placeholder="in dollars">
+
+                <!-- DATA INPUT FOR HOURS WORKED -->
+                <label for="rate">Hours worked:</label>
+                <input type="number" name="hours" id="hours" min="0" max="80" placeholder="in hours">
+
+                <!-- BUTTON -->
+                <button id="button" onclick="display();">
+                    Compute Wages
+                </button>
+
+                <!-- DISPLAY OUTPUT IN A TABLE -->
+                <br>
+                <table id="data">
+                    <tr>
+                        <td>Normal Wages:</td>
+                        <td id="normalHrsDisplay">$0</td>
+                    </tr>
+                    <tr>
+                        <td>Wages Overtime:</td>
+                        <td id="overtimeDisplay">$0</td>
+                    </tr>
+                    <tr>
+                        <td>Total Wages:</td>
+                        <td id="totalDisplay">$0</td>
+                    </tr>
+                </table>
+
+            </div>
+        <div class="footer">Mobile App</div>
+
+    </div>
+
+</body>
+</html>
