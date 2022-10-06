@@ -39,14 +39,14 @@ body {
     justify-content: center;
 }
 .column-one-row3 {
-    padding: 1% 4% 0 0;
+    padding: 1% 4% 1% 4%;
     margin: 2%;
 }
 .column-two-row3 {
-    padding: 1% 4% 0 4%;
+    padding: 1% 4% 1% 4%;
     margin: 2%;
 }
 .column-three-row3 {
-    padding: 1% 0 0 4%;
+    padding: 1% 4% 1% 4%;
     margin: 2%;
 }
