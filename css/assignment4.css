@@ -11,13 +11,23 @@ body {
 }
 
 .row-one {
-
+    padding: 2% 2% 2% 15%;
 }
 
-.row-one {
-    
+.row-two {
+    padding: 0% 0% 0% 15%;
 }
 
-.row-one {
-    
+.row-three {
+    overflow: auto;
+    display: flex;
+    padding: 0% 0% 0% 15%;
+}
+
+.column-one {
+    float: left;
+}
+.column-two {
+    float: right;
+    margin: 2% 20% 2% 2%;
 }
