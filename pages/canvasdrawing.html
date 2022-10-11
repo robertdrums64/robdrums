@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/js/canvasdrawing.js"></script>
+    <link rel="stylesheet" href="/css/canvasdrawing.css">
     <title>Canvas Drawing</title>
 </head>
 <body>
 
-    <canvas id=“drawingBoard” width=“700” height=“700” style="border:1px solid #000000;"></canvas>
+    <canvas class="drawingBoard" id="drawingBoard" width="500" height="600"></canvas>
+
+    <script>
+        var canvas = document.getElementById("drawingBoard");
+        var ctx = canvas.getContext("2d");
+
+        ctx.moveTo(0,0);
+        ctx.lineTo(700,500);
+        ctx.stroke();
+    </script>
 
 </body>
 </html>
