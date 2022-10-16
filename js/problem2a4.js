@@ -5,8 +5,8 @@ $(document).ready(function(){
 
   var rad1 = document.getElementById("radio1");
   var rad2 = document.getElementById("radio2");
-  var inch = 0.393701;
-  var cent = 2.5400013716
+  var inch = 0.39;
+  var cent = 2.54;
 
     $("#radio1").click(function(){
       $("#selected").text("Inches");
