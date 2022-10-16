@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="/css/problem2a4.css" type="text/css" rel="stylesheet"> -->
+    <link href="/css/problem2a4.css" type="text/css" rel="stylesheet">
     <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -13,24 +13,34 @@
 </head>
 <body>
 
-    <div data-role="header">Converter</div>
+    <div class="app-container">
 
-    <div class="input-measurement">
-        <input type="number" id="hours" min="0" max="1000" placeholder="measurement">
-        <label for="measurement">Measurement</label>
-    </div>
+        <div data-role="header">Converter</div>
 
-    <div class="selector-type">
-        <label for="measurement">Convert to:</label>
-        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" />
-        <label for="radio-choice-1">Inches</label>
-        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" checked="checked" />
-        <label for="radio-choice-1">Centimeters</label>
-    </div>
+        <div class="input-measurement">
+            <input type="number" id="hours" min="0" max="100" placeholder="measurement">
+            <label class="selected" id="selected" for="measurement">Select</label>
+        </div>
 
-    <div class="convert-results">
-        <button type="button">Convert</button>
-        <h5 class="results">test</h5>
+        <label data-role="header" for="measurement">Convert to:</label>
+        <div class="selector-type">
+
+            <div class="radio1-cont">
+                <input type="radio" name="radio-choice" id="radio1" value="choice-1" checked="checked" />
+                <label for="radio-choice-1">Centimeters</label>
+            </div>
+            <div class="radio2-cont">
+                <input type="radio" name="radio-choice" id="radio2" value="choice-2" checked="checked" />
+                <label for="radio-choice-1">Inches</label>
+            </div>
+        
+        </div>
+
+        <div class="convert-results">
+            <button id="button" type="button">Convert</button>
+            <h5 class="results">test</h5>
+        </div>
+
     </div>
 
 </body>

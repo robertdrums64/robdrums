@@ -1,0 +1,24 @@
+.app-container {
+    padding: 5%;
+    margin: 10% 35%;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.selected {
+    /* border-style: solid; */
+    height: 4%;
+}
+
+label {
+    padding: 1%;
+}
+
+.radio1-cont {
+    padding: 1%;
+    overflow: hidden;
+}
+
+.radio2-cont {
+    padding: 1%;
+}
