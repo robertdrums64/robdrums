@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* TITLE STYLES */
+
+.title-container {
+    text-align: center;
+}
+
+
+/* GAMEBOARD CONTAINER */
+
+.game-container {
+    padding: 1%;
+}
+
+.doors-row {    
+    display: flex;  
+    flex-wrap: wrap; 
+    text-align: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+}
