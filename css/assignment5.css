@@ -23,6 +23,10 @@ body {
     justify-content: center;
 }
 
+.door {
+    margin: 1%;
+}
+
 /* FOOTER */
 
 .footer {
