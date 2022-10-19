@@ -7,7 +7,7 @@ $(document).ready(function() {
         // alert(rand);
         if (rand ==1) {
             $("#door1").attr("src", "/images/winningDoor.png");
-            alert("You won!");
+            $(".results").text("You Won!");
         }
         else {
             $("#door1").attr("src", "/images/doorOpen.png"); 
@@ -18,7 +18,7 @@ $(document).ready(function() {
         // alert(rand);
         if (rand == 2) {
             $("#door2").attr("src", "/images/winningDoor.png");
-            alert("You won!");
+            $(".results").text("You Won!");
         }
         else {
             $("#door2").attr("src", "/images/doorOpen.png"); 
@@ -29,12 +29,11 @@ $(document).ready(function() {
         // alert(rand);
         if (rand == 3) {
             $("#door3").attr("src", "/images/winningDoor.png");
-            alert("You won!");
+            $(".results").text("You Won!");
         }
         else {
             $("#door3").attr("src", "/images/doorOpen.png"); 
         }
     });
-
 
 });
