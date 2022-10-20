@@ -1,3 +1,4 @@
+
 function drawIt() {
     var canvas = document.getElementById('canvasElement');
     var canvasContext = canvas.getContext("2d");
