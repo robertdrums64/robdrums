@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+    <!-- TITLE -->
+    <title>PHP Tester</title>
+</head>
+<body>
+    
+    <!-- <form action="test.php" method="post">
+
+        <h2>My PHP Tester</h2>
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <input type="text" name="name" size="30"/>
+        </div>
+        <input type="submit" class="btn btn-default" value="Submit Me"/>
+
+    </form> -->
+
+
+    <!-- LOGIN PAGE EXERCISE -->
+    <!-- PAGE 1 -->
+    <div data-role="page" id="pageHome">
+        <div data-role="header">
+            <h1>Login to Fitness Aide</h1>
+        </div>
+
+        <div data-role="content">
+            <!-- text feild for password -->
+            <input type="email" id="email"></input><br>
+            <input type="password" id="password"></input><br>
+            <button onclick="submitPassword()">Log in</button><br>
+            <button onclick="submitPassword()">Sign up</button><br>
+
+            <div>
+                <table>
+                    <tr>
+                        <td><button onclick="addDigitToPassword(7)">7</button></td>
+                        <td><button onclick="addDigitToPassword(8)">8</button></td>
+                        <td><button onclick="addDigitToPassword(9)">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="addDigitToPassword(4)">4</button></td>
+                        <td><button onclick="addDigitToPassword(5)">5</button></td>
+                        <td><button onclick="addDigitToPassword(6)">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="addDigitToPassword(1)">1</button></td>
+                        <td><button onclick="addDigitToPassword(2)">2</button></td>
+                        <td><button onclick="addDigitToPassword(3)">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="addDigitToPassword(0)">0</button></td>
+                        <button onclick="clearPassword()">Delete</button>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
