@@ -44,3 +44,8 @@ function displayPHPresults() {
         document.getElementById("badlogint").innerHTML = output;
     }
 }
+
+//SIGNUP PAGE
+function signUp() {
+    $("#content").load("SignUpPage.html");
+}
