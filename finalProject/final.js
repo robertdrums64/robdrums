@@ -20,7 +20,7 @@ function clearPassword() {
     document.getElementById("txtHint").innerHTML = "";
 }
 
-//LOGIN BUTTON
+//LOGIN BUTTON and RESULTS FUNCTION
 function logIn() {
     var myXMLRequest = new XMLHttpRequest();
     
@@ -29,22 +29,17 @@ function logIn() {
     myXMLRequest.send();
 }
 
-//SIGNUP BUTTON
-function signUp() {
-
-}
-
 function displayPHPresults() {
     var output = "";
     var data = this.responseText;
 
     if(data != "invalid") {
-        var newLocation = location + "#pageMessage";
+        var newLocation = location + "#loggedInPage";
         window.location = newLocation;
-        document.getElementById("secret").innerHTML = data;
+        document.getElementById("loggedin").innerHTML = data;
     }
     else {
         output = "The password in invalid, please try again.";
-        document.getElementById("txtHint").innerHTML = output;
+        document.getElementById("badlogint").innerHTML = output;
     }
 }
