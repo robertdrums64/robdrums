@@ -1,4 +1,9 @@
 <?php
+//FROM the FORM
+$firstName = $_REQUEST['firstName'];
+$lastName = $_REQUEST['lastName'];
+$email = $_REQUEST['email'];
+$password = $_REQUEST['password'];
 
 //TASK 1: MAKE A CONNECTION
 $mysqli = new mysqli("127.0.0.1", "rdelatorre", "64Drummer!", "CS222", 3306);
@@ -10,18 +15,10 @@ else {
     echo "Connection Successful!";
 }
 
-//TASK 3: BUILD CONTAINERS
-$firstName = $_GET['firstName'];
-// $password = $_GET['password'];
-$sql = "SELECT * FROM `Memberships`='$firstName'";
-
-//RESULTS
-$result = $mysqli->query($sql);
-
+$sqlquery = "INSERT INTO table VALUES
+	($firstName, $lastName, $email, $password)"
 
 // CLOSE CONNECTION
 $mysqli->close();
- 
-
 
 ?>
