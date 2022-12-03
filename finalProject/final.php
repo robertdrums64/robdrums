@@ -10,11 +10,20 @@ else {
     echo "Connection Successful!";
 }
 
-
 //TASK 3: BUILD CONTAINERS
 $email = $_GET['email'];
 $password = $_GET['password'];
-$sql = "SELECT * FROM `Memberships` WHERE `email`='email'";
+$sql = "SELECT * FROM `Memberships`";
+
+//RESULTS
+$result = $mysqli->query($sql);
+
+if($result->num_rows > 0) {
+    $displayResults = "<p>"
+    $displayResults = "$row[firstName]"
+    $displayResults = "$row[lastName]"
+    $displayResults = "</p>"
+}
 
 
 
