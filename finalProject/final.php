@@ -11,9 +11,9 @@ else {
 }
 
 //TASK 3: BUILD CONTAINERS
-$email = $_GET['email'];
-$password = $_GET['password'];
-$sql = "SELECT * FROM `Memberships`";
+$firstName = $_GET['firstName'];
+// $password = $_GET['password'];
+$sql = "SELECT * FROM `Memberships`='$firstName'";
 
 //RESULTS
 $result = $mysqli->query($sql);
