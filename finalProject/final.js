@@ -47,6 +47,5 @@ function displayPHPresults() {
 
 //SIGNUP PAGE
 function signUp() {
-    $("#content").load("SignUpPage.html");
-    alert("TEST");
+
 }
