@@ -1,9 +1,10 @@
+
 var pass = "";
 var encryptPassword = "";
 
 
 
-// KEYPAD FUNCTIONS
+// KEYPAD FUNCTIONS------------------------------------------
 function addDigitToPassword(digitalInput) {
     // alert('test');
     pass += digitalInput;
@@ -20,7 +21,7 @@ function clearPassword() {
     document.getElementById("txtHint").innerHTML = "";
 }
 
-//LOGIN BUTTON and RESULTS FUNCTION
+//LOGIN BUTTON and RESULTS FUNCTION----------------------------
 function logIn() {
     var myXMLRequest = new XMLHttpRequest();
     
@@ -31,7 +32,7 @@ function logIn() {
 
 function displayPHPresults() {
     var output = "";
-    var data = "Connected";
+    var data = this.responseText;
 
     if(data != "invalid") {
         var newLocation = location + "#loggedInPage";
