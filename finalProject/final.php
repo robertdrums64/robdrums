@@ -20,8 +20,7 @@ $result = $mysqli->query($sql);
 
 if($result->num_rows > 0) {
     $displayResults = "<p>"
-    $displayResults = "$row[firstName]"
-    $displayResults = "$row[lastName]"
+    $displayResults = "$result"
     $displayResults = "</p>"
 }
 
