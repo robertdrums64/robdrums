@@ -2,6 +2,8 @@ var pass = "";
 var encryptPassword = "";
 
 
+
+// KEYPAD FUNCTIONS
 function addDigitToPassword(digitalInput) {
     // alert('test');
     pass += digitalInput;
@@ -18,12 +20,18 @@ function clearPassword() {
     document.getElementById("txtHint").innerHTML = "";
 }
 
-function submitPassword() {
+//LOGIN BUTTON
+function logIn() {
     var myXMLRequest = new XMLHttpRequest();
     
     myXMLRequest.onload = displayPHPresults;
-    myXMLRequest.open("POST", "test.php?q=" + pass, true);
+    myXMLRequest.open("POST", "final.php?q=" + pass, true);
     myXMLRequest.send();
+}
+
+//SIGNUP BUTTON
+function signUp() {
+
 }
 
 function displayPHPresults() {
