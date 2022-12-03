@@ -31,7 +31,7 @@ function logIn() {
 
 function displayPHPresults() {
     var output = "";
-    var data = this.responseText;
+    var data = "Connected";
 
     if(data != "invalid") {
         var newLocation = location + "#loggedInPage";
