@@ -12,11 +12,11 @@
     <title>Capstone | Robert De La Torre</title>
 </head>
 <body>
-    
+
     <!-- HEADER -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="row container-fluid">
-            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu"><img class="navbar-brand" src="/images/United_States_National_Parks.png" alt="United_States_National_Parks" height="8%" width="8%"></button>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong top">
+        <div class="header">
+            <button class="btn btn-success btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">FIND A PARK</button>
         </div>
     </nav>
 
@@ -29,12 +29,15 @@
 
             <!-- STATE SELECT -->
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select State
-                <span class="caret"></span></button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  PICK A STATE
+                </button>
                 <ul class="dropdown-menu">
-                  <li><a href="#">California</a></li>
-                  <li><a href="#">Arizona</a></li>
-                  <li><a href="#">Colorado</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="/images/stateflags/Flag_of_Alabama.png" alt="Alabama" width="5%" height="5%">&nbsp;&nbsp;Alabama</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="/images/stateflags/Flag_of_Alaska.png" alt="Alabama" width="5%" height="5%">&nbsp;&nbsp;Alaska</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="/images/stateflags/Flag_of_Arizona.png" alt="Alabama" width="5%" height="5%">&nbsp;&nbsp;Arizona</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="/images/stateflags/Flag_of_Arkansas.png" alt="Alabama" width="5%" height="5%">&nbsp;&nbsp;Arkansas</a></li>
+                  <li><a class="dropdown-item" href="#"> <img src="/images/stateflags/Flag_of_California.png" alt="Alabama" width="5%" height="5%">&nbsp;&nbsp;California</a></li>
                 </ul>
             </div>
 
@@ -43,5 +46,12 @@
 
     <!-- MAIN CONTENT -->
     <div class="main-content"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-bottom">
+        <div class="footer">
+            <img src="/images/Smokey-Standing.png" alt="SMOKEY" height="40%" width="40%">
+        </div>
+    </nav>
+
 </body>
 </html>
