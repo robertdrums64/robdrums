@@ -44,5 +44,6 @@ body {
 }
 
 .np_logo {
-  padding: 0% 0% 3% 2%;
+  padding: 0% 0% 3% 3%;
+  opacity: 0.5;
 }
