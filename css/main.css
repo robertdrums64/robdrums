@@ -1,10 +1,18 @@
-body {
-    /* z-index:-1; */
+/* body {
+    z-index:-1;
     background-image: url("/images/test.jpg");
     height: 100%; 
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.5; */
+    opacity: 0.5;
+  } 
+  */
+  body {
+    background: url(/images/test.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 /* TOP MENU BAR */
