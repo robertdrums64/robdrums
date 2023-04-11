@@ -60,13 +60,11 @@ a:visited {
 }
 
 .main-content {
-  padding: 1% 1%;
-  color: azure;
+  color: whitesmoke;
+  position: sticky;
   float: right;
-  text-align: left;
-
+  bottom: 10px;
   width: 50%;
-  height: auto;
 }
 .main-content a {
   text-decoration: none;
@@ -89,10 +87,9 @@ a:visited {
 }
 
 .smky-div {
-  margin: 10% 0% 0% 0%;
+  position: absolute;
+  bottom: 2%;
   width: 50%;
-  height: auto;
-  float: left;
 }
 .smokey {
   width: 35%;

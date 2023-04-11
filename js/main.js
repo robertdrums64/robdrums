@@ -57,8 +57,8 @@ async function getInfo(id) {
 
 
         const markup = `<h2 class"parkname">${elem.fullName}</h2>
-                        <p class="descript">${elem.description}</p>
-                        <p class="descript">${elem.directionsInfo}</p>`;
+                        <p class="descript">${elem.description}</p>`;
+                        // <p class="descript">${elem.directionsInfo}</p>`;
                         // <p class="descript"><a href="${elem.directionsUrl}" target="_blank">${elem.directionsUrl}</a></p>
 
         document.getElementById("parkinfo").insertAdjacentHTML('beforeend', markup);
